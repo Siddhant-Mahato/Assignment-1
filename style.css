@@ -1,0 +1,463 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.wrapper {
+  width: 100%;
+  height: 100%;
+  background-color: #1a1646;
+}
+
+.container {
+  max-width: 1080px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+#heroSection {
+  position: relative;
+  width: 100%;
+  display: flex;
+  color: white;
+  gap: 50px;
+}
+
+.left {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+
+#headleftp,
+.left p,
+.left img {
+  align-self: flex-start; /* Align specific elements to start from the left */
+}
+
+.left p {
+  text-align: left; /* Align paragraph text to start from the left */
+  margin: 0; /* Remove default margin */
+}
+
+.left img {
+  width: 150px;
+  height: 100px;
+}
+
+#headleftp {
+  font-weight: 700;
+  font-size: 40px;
+  max-width: 100%; /* Ensure the text wraps at the container's width */
+  overflow: hidden; /* Hide any overflow content */
+  display: -webkit-box;
+  -webkit-line-clamp: 3; /* Limit to 3 lines */
+  -webkit-box-orient: vertical;
+  word-wrap: break-word; /* Wrap long words */
+}
+
+.btn-mediums {
+  width: 100%;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: rgb(235, 169, 16);
+  color: #1a1646;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  display: inline-block;
+  text-align: center;
+}
+
+.btn-mediums span {
+  margin-right: 5px;
+}
+
+.btn-mediums del {
+  text-decoration: line-through;
+  margin-left: 5px;
+}
+
+.team-discount-link {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+#heroSection .right .btn-primary {
+  background-color: #131033 !important;
+  border-color: #ffffff !important;
+  color: #ffffff !important;
+  position: absolute;
+  bottom: 80px;
+  z-index: 1;
+}
+
+.leftcard {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.lefth {
+  height: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid wheat;
+  border-radius: 10px; /* or any value you prefer */
+  padding: 10px; /* Add padding */
+}
+
+.right {
+  position: relative;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 80px;
+}
+
+.rightCard {
+  height: 200px;
+  width: 500px;
+  background-color: #080c52;
+}
+
+.right hr {
+  position: absolute;
+  border: none; /* Remove the default border */
+  height: 2px; /* Set the height of the horizontal rule */
+  background-color: white; /* Set the background color to white */
+  width: 100%; /* Set the width to fill the container */
+  bottom: 70px;
+  z-index: 0;
+}
+
+.about-sec {
+  width: 100%;
+  background-color: #112225;
+}
+
+.aboutsecin {
+  background-color: #ffffff;
+  max-width: 1080px;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.aboutsecin .p1,
+.aboutsecin .p2 {
+  margin-bottom: 0 !important; /* Remove margin between p1 and p2 */
+  margin-top: 0 !important; /* Remove margin between p1 and p2 */
+}
+
+
+.aboutsecin > p {
+  color: #222567;
+  font-size: 15px; 
+}
+
+.aDiv {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.aDiv1 {
+  width: 340px;
+  height: 300px;
+  border-radius: 10px;
+}
+
+.aDiv2 {
+  width: 340px;
+  height: 300px;
+  border-radius: 10px;
+}
+
+
+.goAhead{
+    width: 100%;
+    background-color: #FFFFFF;
+}
+
+.go{
+    background-color: #ffffff;
+    max-width: 1080px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.go p{
+    margin-bottom: 0%;
+}
+
+.go .gop1{
+    font-size: 25px;
+    color: orangered;
+    font-weight: 700;
+}
+
+.go .gop2{
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.go1{
+    height: 200px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.go2{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.go1 .g1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.go1 .g2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.go1 .g3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.go2 .graph{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.go2 .mind{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.go1 .g1 i{
+    margin-bottom: 12px;
+}
+.go1 .g2 i{
+    margin-bottom: 12px;
+}
+.go1 .g3 i{
+    margin-bottom: 12px;
+}
+
+.go2 .graph i{
+    margin-bottom: 12px;
+}
+
+.go2 .mind i{
+    margin-bottom: 12px;
+}
+
+
+.timer{
+    width: 100%;
+    background-color: #1a1646;
+}
+
+
+.count{
+    max-width: 1080px;
+    background-color: #080c52;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #ffffff;
+}
+
+.count p{
+    margin-bottom: 0;
+    font-size:30px;
+    font-weight: 600;
+}
+
+
+.btntime{
+    background-color: rgb(235, 169, 16);
+    padding: 15px 80px 15px 80px;
+    margin-top: 80px;
+
+    border-radius: 10px;
+}
+
+#countdownTimer{
+    margin-top: 80px;
+    font-size: 50px;
+}
+
+
+.price{
+    width: 100%;
+    background-color: #1A1646;
+}
+
+.star {
+  background-color: #131033;
+  max-width: 1080px;
+  margin: 0 auto;
+  padding: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.star1 {
+  color: white;
+  border: 1px solid wheat;
+  border-radius: 10px;
+  padding: 50px;
+  height: 200px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+
+.star2 {
+  color: white;
+  border: 1px solid wheat;
+  border-radius: 10px;
+  padding: 50px;
+  height: 200px;
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+}
+
+
+
+@media (max-width: 900px) {
+  
+    #heroSection {
+        position: relative;
+        width: 100%;
+        display: flex;
+        color: white;
+        gap: 50px;
+        flex-direction: column;
+        height: 1200px;
+    }
+
+    
+    .left {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 40px;
+    }
+
+
+    .right {
+        position: relative;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 80px;
+    }
+
+    .rightCard {
+            height: 200px;
+            width: 500px;
+            background-color: #080c52;
+        }
+
+    .right hr {
+            position: absolute;
+            border: none; /* Remove the default border */
+            height: 2px; /* Set the height of the horizontal rule */
+            background-color: white; /* Set the background color to white */
+            width: 100%; /* Set the width to fill the container */
+            top: 400px;
+            z-index: 0;
+        }
+    .btn-sm{
+        z-index: 1;
+        top: 398px;
+        height: 30px;
+    }
+
+    .star {
+        background-color: #131033;
+        max-width: 1080px;
+        margin: 0 auto;
+        padding: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+.star1 {
+    color: white;
+    border: 1px solid wheat;
+    border-radius: 10px;
+    padding: 50px;
+    height: 200px;
+}
+
+.star2 {
+    color: white;
+    border: 1px solid wheat;
+    border-radius: 10px;
+    padding: 50px;
+    height: 200px;
+    
+}
+
+}
+
+
+@media  (max-width: 660px){
+    .star1{
+        height: 400px;
+    }
+
+    .star2{
+        height: 300px;
+    }
+
+}
